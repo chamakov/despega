@@ -1,0 +1,7 @@
+{
+  "name": "despega",
+  "private": true,
+  "dependencies": {
+    "actiontext": "https://github.com/rails/actiontext"
+  }
+}

@@ -1,0 +1,11 @@
+plugins:
+  brakeman:
+    enabled: true
+  bundler-audit:
+    enabled: true
+  haml-lint:
+    enabled: true
+  rubocop:
+    enabled: true
+  bullet:
+    enabled: true

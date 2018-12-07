@@ -1,0 +1,4 @@
+$bucket: "<%= Rails.application.credentials.aws[:url_to_bucket] %>";
+$ui: $bucket+'ui/';
+
+// $sample: $ui+"sample.jpg";

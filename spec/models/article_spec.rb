@@ -3,13 +3,13 @@ require "rails_helper"
 # 
 RSpec.describe Article, type: :model do
   # Espera que el atributo status este presente
-  xit { is_expected.to validate_presence_of(:status) }
+  it { is_expected.to validate_presence_of(:status) }
   # Espera que el atributo status tenga la enumeracion correcta
   xit { is_expected.to define_enum_for(:status).with(inactive: 0, active: 1) }
   # Espera que el atributo slug este presente
-  xit { is_expected.to validate_presence_of(:slug) }
+  it { is_expected.to validate_presence_of(:slug) }
   # Espera que el atributo name este presente
-  xit { is_expected.to validate_presence_of(:name) }
+  it { is_expected.to validate_presence_of(:name) }
 
   # Espera que el modelo Article (articulo) pertenezca a un User
   xit { is_expected.to belong_to(:user) }
